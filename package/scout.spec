@@ -41,7 +41,7 @@ BuildArch:      noarch
 %endif
 %if 0%{?suse_version} > 1100
 BuildRequires:  python-solv
-Requires:       python-solv
+Requires:       python-solv >= 0.6.0
 %endif
 %else
 BuildArch:      noarch
